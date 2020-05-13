@@ -39,11 +39,14 @@ html {
 	padding-left: 16px;
 }
 
-.results-button {
-	height: 100%;
-	padding: 0;
-}
-
 .webpage-logo-header {
 	height: 250px;
+}
+
+#submit {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin-left: 0;
+	margin-bottom: 0;
 }

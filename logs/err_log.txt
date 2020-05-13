@@ -1,1 +1,7 @@
 
+Error Occured - 'type' object is not iterable
+
+Type: <class 'TypeError'>
+Exception: 'type' object is not iterable
+Traceback:
+<traceback object at 0x05A0F0C8>

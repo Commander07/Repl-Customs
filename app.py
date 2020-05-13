@@ -14,7 +14,7 @@ Exception: {2}
 Traceback:
 {3}
 """
-	with open('Repl-Customs/logs/err_log.txt', 'w') as fh:
+	with open('logs/err_log.txt', 'w') as fh:
 		res = errTemplate.format(a, b, c, d)
 		fh.write(res)
 
@@ -43,7 +43,8 @@ async def get_user_object(name):
 		ex_type, ex, tb = sys.exc_info()
 		log_error(e, ex_type, ex, tb)
 
-KEY = os.getenv('APP_KEY')
+# KEY = os.getenv('APP_KEY')
+KEY = "0asi9ohdailkosdh"
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = KEY
